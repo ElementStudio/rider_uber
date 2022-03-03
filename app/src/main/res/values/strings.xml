@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Uber Rider</string>
+    <string name="sign_in_with_phone">SIGN IN WITH PHONE</string>
+    <string name="continue_text">CONTINUE</string>
+    <string name="phone_number">Enter phone number</string>
+    <string name="last_name">Enter Last Name</string>
+    <string name="first_name">Enter first Name</string>
+    <string name="register_text">Let\'s start with creating your account</string>
+</resources>
