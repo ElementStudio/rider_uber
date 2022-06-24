@@ -50,4 +50,13 @@
         <item name="android:windowBackground">@android:color/white</item>
         <item name="android:windowIsFloating">false</item>
     </style>
+
+    <style name="Theme.UberRider.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.UberRider.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.UberRider.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

@@ -1,10 +1,10 @@
 package com.example.uberrider.Model;
 
-public class RiderModel {
-    private String firstName,lastName,phoneNumber,avatar;
+public class DriverInfoModel {
+    private String firstName, lastName, phoneNumber,avatar;
+    private double rating;
 
-    public RiderModel() {
-
+    public DriverInfoModel() {
     }
 
     public String getFirstName() {
@@ -37,5 +37,13 @@ public class RiderModel {
 
     public void setAvatar(String avatar) {
         this.avatar = avatar;
+    }
+
+    public double getRating() {
+        return rating;
+    }
+
+    public void setRating(double rating) {
+        this.rating = rating;
     }
 }
